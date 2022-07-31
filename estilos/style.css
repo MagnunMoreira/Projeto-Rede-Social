@@ -7,6 +7,8 @@
 
 }
 
+
+
 html, body {
     height: 100vh;
     width: 100vw;
@@ -56,13 +58,18 @@ section#redes-sociais img {
 
 }
 section#redes-sociais {
-    text-align: right;
+    
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    
     
 }
 section#redes-sociais img:hover {
     border: 5px solid white;
     transform: translate(-3px -3px);
     box-shadow: 5px 5px 10px rgb(rgb(0, 0, 0);
+    
     
 
 }
